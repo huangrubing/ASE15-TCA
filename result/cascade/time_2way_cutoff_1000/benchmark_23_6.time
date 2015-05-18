@@ -1,0 +1,25 @@
+0.00/0.00	processing input file: ./benchmark_casade/benchmark_23.ctin
+0.00/0.07	successfully parsed the input file, generating the test suite
+0.00/0.07	[1]preparing parameter restrictions
+0.00/0.07	[2]initialing target combinations
+0.00/0.07	completed 0.00%, 4 combinations (may include invalid combinations)completed 28.49%, 468 combinations (may include invalid combinations)completed 56.98%, 1034 combinations (may include invalid combinations)completed 85.47%, 1450 combinations (may include invalid combinations)completed 100.00%, 1668 combinations (may include invalid combinations)
+0.00/0.07	[3]preparing parameter-combination restrictions
+0.00/0.08	completed 59.95%, 1000 generatedcompleted 100.00%, 1668 generated
+0.00/0.08	[4]translating constraints into intermediate form
+0.00/0.08	[5]adding seeds: 0 in total
+0.12/0.20	# combinations=1317, # seeds=0, # last covered=351, solve time=100, # tests=1
+0.14/0.46	# combinations=969, # seeds=0, # last covered=348, solve time=240, # tests=2
+0.71/0.80	# combinations=773, # seeds=0, # last covered=196, solve time=320, # tests=3
+1.01/1.12	# combinations=596, # seeds=0, # last covered=177, solve time=300, # tests=4
+1.42/1.50	# combinations=464, # seeds=0, # last covered=132, solve time=360, # tests=5
+1.43/1.76	# combinations=363, # seeds=0, # last covered=101, solve time=240, # tests=6
+2.63/2.72	# combinations=307, # seeds=0, # last covered=56, solve time=950, # tests=7
+3.21/3.32	# combinations=259, # seeds=0, # last covered=48, solve time=580, # tests=8
+3.27/3.66	# combinations=230, # seeds=0, # last covered=29, solve time=320, # tests=9
+3.60/3.70	# combinations=209, # seeds=0, # last covered=21, solve time=30, # tests=10
+3.60/3.73	# combinations=193, # seeds=0, # last covered=16, solve time=10, # tests=11
+3.60/3.75	# combinations=180, # seeds=0, # last covered=13, solve time=0, # tests=12
+3.60/3.77	# combinations=174, # seeds=0, # last covered=6, solve time=0, # tests=13
+3.60/3.78	# combinations=173, # seeds=0, # last covered=1, solve time=0, # tests=14
+3.60/3.80	all valid tuples have been covered
+3.71/3.80	14 test cases in total

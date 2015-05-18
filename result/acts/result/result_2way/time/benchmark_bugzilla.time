@@ -1,0 +1,21 @@
+We recommend the use of ACTS on Windows. The GUI features may be different on other platforms. 
+System Name: ./benchmark_converted/benchmark_bugzilla.txt
+
+Strength: 2
+Mode: scratch
+Algorithm: ipog
+Constraint Handling: Using forbidden tuples
+Verify Coverage: off
+
+Minimum Forbidden Tuples Generating...
+Input forbidden tuples: 5
+5..5..Done.
+Minimal Forbidden Tuples: 5
+MFTs Generation Elapsed time : 0.09 s
+Parameters	: 52
+Constraints	: 5
+Covered Tuples	: 5818
+Number of Tests	: 19
+Time (seconds)	: 0.304 
+
+Output file: ./solution/benchmark_bugzilla.solution

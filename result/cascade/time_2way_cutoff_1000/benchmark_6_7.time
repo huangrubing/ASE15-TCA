@@ -1,0 +1,44 @@
+0.00/0.00	processing input file: ./benchmark_casade/benchmark_6.ctin
+0.00/0.00	successfully parsed the input file, generating the test suite
+0.00/0.00	[1]preparing parameter restrictions
+0.00/0.00	[2]initialing target combinations
+0.00/0.03	completed 0.00%, 4 combinations (may include invalid combinations)completed 3.41%, 432 combinations (may include invalid combinations)completed 6.83%, 864 combinations (may include invalid combinations)completed 10.25%, 1284 combinations (may include invalid combinations)completed 13.67%, 1720 combinations (may include invalid combinations)completed 17.08%, 2144 combinations (may include invalid combinations)completed 20.50%, 2576 combinations (may include invalid combinations)completed 23.92%, 3004 combinations (may include invalid combinations)completed 27.34%, 3436 combinations (may include invalid combinations)completed 30.75%, 3864 combinations (may include invalid combinations)completed 34.17%, 4304 combinations (may include invalid combinations)completed 37.59%, 4724 combinations (may include invalid combinations)completed 41.01%, 5164 combinations (may include invalid combinations)completed 44.42%, 5604 combinations (may include invalid combinations)completed 47.84%, 6040 combinations (may include invalid combinations)completed 51.26%, 6476 combinations (may include invalid combinations)completed 54.68%, 6912 combinations (may include invalid combinations)completed 58.09%, 7760 combinations (may include invalid combinations)completed 61.51%, 8380 combinations (may include invalid combinations)completed 64.93%, 8804 combinations (may include invalid combinations)completed 68.35%, 9220 combinations (may include invalid combinations)completed 71.77%, 9800 combinations (may include invalid combinations)completed 75.18%, 10212 combinations (may include invalid combinations)completed 78.60%, 10760 combinations (may include invalid combinations)completed 82.02%, 11160 combinations (may include invalid combinations)completed 85.44%, 11560 combinations (may include invalid combinations)completed 88.85%, 11960 combinations (may include invalid combinations)completed 92.27%, 12360 combinations (may include invalid combinations)completed 95.69%, 12760 combinations (may include invalid combinations)completed 99.11%, 13160 combinations (may include invalid combinations)completed 100.00%, 13260 combinations (may include invalid combinations)
+0.00/0.03	[3]preparing parameter-combination restrictions
+0.06/0.09	completed 7.54%, 1000 generatedcompleted 15.08%, 2000 generatedcompleted 22.62%, 3000 generatedcompleted 30.17%, 4000 generatedcompleted 37.71%, 5000 generatedcompleted 45.25%, 6000 generatedcompleted 52.79%, 7000 generatedcompleted 60.33%, 8000 generatedcompleted 67.87%, 9000 generatedcompleted 75.41%, 10000 generatedcompleted 82.96%, 11000 generatedcompleted 90.50%, 12000 generatedcompleted 98.04%, 13000 generatedcompleted 100.00%, 13260 generated
+0.06/0.09	[4]translating constraints into intermediate form
+0.06/0.09	[5]adding seeds: 0 in total
+0.15/0.29	# combinations=10334, # seeds=0, # last covered=2926, solve time=100, # tests=1
+2.42/2.41	# combinations=7513, # seeds=0, # last covered=2821, solve time=2009, # tests=2
+11.17/11.11	# combinations=6162, # seeds=0, # last covered=1351, solve time=8600, # tests=3
+20.00/19.97	# combinations=4852, # seeds=0, # last covered=1310, solve time=8770, # tests=4
+25.91/25.86	# combinations=4243, # seeds=0, # last covered=609, solve time=5780, # tests=5
+30.36/30.26	# combinations=3643, # seeds=0, # last covered=600, solve time=4320, # tests=6
+34.59/34.45	# combinations=3296, # seeds=0, # last covered=347, solve time=4130, # tests=7
+38.62/38.49	# combinations=2962, # seeds=0, # last covered=334, solve time=3950, # tests=8
+42.52/42.36	# combinations=2731, # seeds=0, # last covered=231, solve time=3770, # tests=9
+46.25/46.01	# combinations=2550, # seeds=0, # last covered=181, solve time=3600, # tests=10
+49.66/49.49	# combinations=2399, # seeds=0, # last covered=151, solve time=3440, # tests=11
+53.07/52.82	# combinations=2255, # seeds=0, # last covered=144, solve time=3290, # tests=12
+56.99/56.72	# combinations=2132, # seeds=0, # last covered=123, solve time=3850, # tests=13
+60.20/59.98	# combinations=2068, # seeds=0, # last covered=64, solve time=3180, # tests=14
+64.33/64.04	# combinations=2020, # seeds=0, # last covered=48, solve time=4019, # tests=15
+64.38/64.17	# combinations=1980, # seeds=0, # last covered=40, solve time=90, # tests=16
+64.51/64.28	# combinations=1948, # seeds=0, # last covered=32, solve time=60, # tests=17
+64.64/64.36	# combinations=1932, # seeds=0, # last covered=16, solve time=40, # tests=18
+64.70/64.43	# combinations=1923, # seeds=0, # last covered=9, solve time=20, # tests=19
+64.84/64.50	# combinations=1915, # seeds=0, # last covered=8, solve time=10, # tests=20
+64.84/64.56	# combinations=1909, # seeds=0, # last covered=6, solve time=20, # tests=21
+64.90/64.62	# combinations=1904, # seeds=0, # last covered=5, solve time=20, # tests=22
+64.90/64.68	# combinations=1899, # seeds=0, # last covered=5, solve time=20, # tests=23
+65.02/64.74	# combinations=1895, # seeds=0, # last covered=4, solve time=10, # tests=24
+65.02/64.79	# combinations=1892, # seeds=0, # last covered=3, solve time=10, # tests=25
+65.14/64.85	# combinations=1889, # seeds=0, # last covered=3, solve time=20, # tests=26
+65.14/64.90	# combinations=1887, # seeds=0, # last covered=2, solve time=20, # tests=27
+65.25/64.94	# combinations=1885, # seeds=0, # last covered=2, solve time=20, # tests=28
+65.35/65.00	# combinations=1883, # seeds=0, # last covered=2, solve time=10, # tests=29
+65.35/65.05	# combinations=1881, # seeds=0, # last covered=2, solve time=10, # tests=30
+65.45/65.11	# combinations=1880, # seeds=0, # last covered=1, solve time=0, # tests=31
+65.45/65.16	# combinations=1879, # seeds=0, # last covered=1, solve time=10, # tests=32
+65.53/65.22	# combinations=1878, # seeds=0, # last covered=1, solve time=10, # tests=33
+65.53/65.25	all valid tuples have been covered
+65.53/65.26	33 test cases in total

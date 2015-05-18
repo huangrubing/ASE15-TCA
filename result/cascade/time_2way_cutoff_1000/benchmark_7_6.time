@@ -1,0 +1,23 @@
+0.00/0.00	processing input file: ./benchmark_casade/benchmark_7.ctin
+0.00/0.05	successfully parsed the input file, generating the test suite
+0.00/0.05	[1]preparing parameter restrictions
+0.00/0.05	[2]initialing target combinations
+0.00/0.05	completed 0.00%, 4 combinations (may include invalid combinations)completed 22.98%, 410 combinations (may include invalid combinations)completed 45.97%, 820 combinations (may include invalid combinations)completed 68.96%, 1230 combinations (may include invalid combinations)completed 91.95%, 1648 combinations (may include invalid combinations)completed 100.00%, 1798 combinations (may include invalid combinations)
+0.00/0.05	[3]preparing parameter-combination restrictions
+0.00/0.07	completed 55.62%, 1000 generatedcompleted 100.00%, 1798 generated
+0.00/0.07	[4]translating constraints into intermediate form
+0.00/0.07	[5]adding seeds: 0 in total
+0.02/0.19	# combinations=1363, # seeds=0, # last covered=435, solve time=100, # tests=1
+0.14/0.54	# combinations=938, # seeds=0, # last covered=425, solve time=320, # tests=2
+1.02/1.14	# combinations=737, # seeds=0, # last covered=201, solve time=580, # tests=3
+1.08/1.67	# combinations=548, # seeds=0, # last covered=189, solve time=510, # tests=4
+1.63/2.01	# combinations=455, # seeds=0, # last covered=93, solve time=320, # tests=5
+2.24/2.34	# combinations=369, # seeds=0, # last covered=86, solve time=310, # tests=6
+2.29/2.71	# combinations=317, # seeds=0, # last covered=52, solve time=360, # tests=7
+2.67/2.92	# combinations=271, # seeds=0, # last covered=46, solve time=190, # tests=8
+3.63/3.79	# combinations=257, # seeds=0, # last covered=14, solve time=850, # tests=9
+3.74/3.83	# combinations=243, # seeds=0, # last covered=14, solve time=20, # tests=10
+3.74/3.85	# combinations=232, # seeds=0, # last covered=11, solve time=0, # tests=11
+3.74/3.87	# combinations=231, # seeds=0, # last covered=1, solve time=0, # tests=12
+3.74/3.88	all valid tuples have been covered
+3.74/3.88	12 test cases in total

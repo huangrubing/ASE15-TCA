@@ -1,0 +1,21 @@
+We recommend the use of ACTS on Windows. The GUI features may be different on other platforms. 
+System Name: ./benchmark_converted/benchmark_5.txt
+
+Strength: 3
+Mode: scratch
+Algorithm: ipog
+Constraint Handling: Using forbidden tuples
+Verify Coverage: off
+
+Minimum Forbidden Tuples Generating...
+Input forbidden tuples: 39
+39..64..97..112..112..Done.
+Minimal Forbidden Tuples: 112
+MFTs Generation Elapsed time : 0.408 s
+Parameters	: 174
+Constraints	: 39
+Covered Tuples	: 9816481
+Number of Tests	: 386
+Time (seconds)	: 13.394 
+
+Output file: ./solution_3way/benchmark_5.solution

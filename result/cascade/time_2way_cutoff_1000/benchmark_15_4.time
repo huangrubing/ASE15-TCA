@@ -1,0 +1,48 @@
+0.00/0.00	processing input file: ./benchmark_casade/benchmark_15.ctin
+0.00/0.05	successfully parsed the input file, generating the test suite
+0.00/0.05	[1]preparing parameter restrictions
+0.00/0.05	[2]initialing target combinations
+0.00/0.08	completed 0.00%, 4 combinations (may include invalid combinations)completed 6.04%, 468 combinations (may include invalid combinations)completed 12.09%, 932 combinations (may include invalid combinations)completed 18.14%, 1388 combinations (may include invalid combinations)completed 24.19%, 2011 combinations (may include invalid combinations)completed 30.24%, 2743 combinations (may include invalid combinations)completed 36.29%, 3300 combinations (may include invalid combinations)completed 42.34%, 3744 combinations (may include invalid combinations)completed 48.39%, 4286 combinations (may include invalid combinations)completed 54.44%, 4740 combinations (may include invalid combinations)completed 60.49%, 5348 combinations (may include invalid combinations)completed 66.54%, 5867 combinations (may include invalid combinations)completed 72.59%, 6317 combinations (may include invalid combinations)completed 78.64%, 6927 combinations (may include invalid combinations)completed 84.69%, 7367 combinations (may include invalid combinations)completed 90.74%, 7935 combinations (may include invalid combinations)completed 96.79%, 8335 combinations (may include invalid combinations)completed 100.00%, 8543 combinations (may include invalid combinations)
+0.00/0.08	[3]preparing parameter-combination restrictions
+0.04/0.11	completed 11.71%, 1000 generatedcompleted 23.41%, 2000 generatedcompleted 35.12%, 3000 generatedcompleted 46.82%, 4000 generatedcompleted 58.53%, 5000 generatedcompleted 70.23%, 6000 generatedcompleted 81.94%, 7000 generatedcompleted 93.64%, 8000 generatedcompleted 100.00%, 8543 generated
+0.04/0.11	[4]translating constraints into intermediate form
+0.04/0.12	[5]adding seeds: 0 in total
+0.10/0.29	# combinations=6890, # seeds=0, # last covered=1653, solve time=100, # tests=1
+1.97/2.06	# combinations=5258, # seeds=0, # last covered=1632, solve time=1720, # tests=2
+5.98/6.09	# combinations=4134, # seeds=0, # last covered=1124, solve time=3950, # tests=3
+10.27/10.35	# combinations=3140, # seeds=0, # last covered=994, solve time=4180, # tests=4
+12.39/12.43	# combinations=2535, # seeds=0, # last covered=605, solve time=2029, # tests=5
+14.39/14.41	# combinations=2017, # seeds=0, # last covered=518, solve time=1940, # tests=6
+18.53/18.57	# combinations=1643, # seeds=0, # last covered=374, solve time=4110, # tests=7
+20.94/20.94	# combinations=1371, # seeds=0, # last covered=272, solve time=2350, # tests=8
+24.36/24.30	# combinations=1132, # seeds=0, # last covered=239, solve time=3320, # tests=9
+26.76/26.76	# combinations=940, # seeds=0, # last covered=192, solve time=2420, # tests=10
+29.16/29.11	# combinations=790, # seeds=0, # last covered=150, solve time=2310, # tests=11
+31.37/31.37	# combinations=655, # seeds=0, # last covered=135, solve time=2210, # tests=12
+33.58/33.50	# combinations=552, # seeds=0, # last covered=103, solve time=2110, # tests=13
+35.58/35.55	# combinations=474, # seeds=0, # last covered=78, solve time=2020, # tests=14
+37.59/37.51	# combinations=411, # seeds=0, # last covered=63, solve time=1930, # tests=15
+37.62/37.97	# combinations=359, # seeds=0, # last covered=52, solve time=410, # tests=16
+38.08/38.11	# combinations=319, # seeds=0, # last covered=40, solve time=100, # tests=17
+38.21/38.21	# combinations=289, # seeds=0, # last covered=30, solve time=70, # tests=18
+38.21/38.28	# combinations=266, # seeds=0, # last covered=23, solve time=50, # tests=19
+38.38/38.35	# combinations=247, # seeds=0, # last covered=19, solve time=40, # tests=20
+38.38/38.41	# combinations=233, # seeds=0, # last covered=14, solve time=30, # tests=21
+38.51/38.47	# combinations=220, # seeds=0, # last covered=13, solve time=20, # tests=22
+38.60/38.52	# combinations=210, # seeds=0, # last covered=10, solve time=20, # tests=23
+38.60/38.58	# combinations=202, # seeds=0, # last covered=8, solve time=20, # tests=24
+38.66/38.63	# combinations=195, # seeds=0, # last covered=7, solve time=20, # tests=25
+38.66/38.67	# combinations=189, # seeds=0, # last covered=6, solve time=20, # tests=26
+38.75/38.72	# combinations=184, # seeds=0, # last covered=5, solve time=20, # tests=27
+38.75/38.77	# combinations=179, # seeds=0, # last covered=5, solve time=10, # tests=28
+38.84/38.82	# combinations=174, # seeds=0, # last covered=5, solve time=20, # tests=29
+38.84/38.86	# combinations=170, # seeds=0, # last covered=4, solve time=10, # tests=30
+38.94/38.91	# combinations=166, # seeds=0, # last covered=4, solve time=10, # tests=31
+38.94/38.96	# combinations=163, # seeds=0, # last covered=3, solve time=10, # tests=32
+39.05/39.00	# combinations=161, # seeds=0, # last covered=2, solve time=10, # tests=33
+39.05/39.04	# combinations=159, # seeds=0, # last covered=2, solve time=10, # tests=34
+39.05/39.09	# combinations=157, # seeds=0, # last covered=2, solve time=10, # tests=35
+39.15/39.13	# combinations=156, # seeds=0, # last covered=1, solve time=0, # tests=36
+39.15/39.17	# combinations=155, # seeds=0, # last covered=1, solve time=10, # tests=37
+39.15/39.19	all valid tuples have been covered
+39.15/39.19	37 test cases in total
