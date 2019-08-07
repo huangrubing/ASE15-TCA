@@ -15,7 +15,6 @@
 // You should have received a copy of the GNU General Public License
 // along with CASA.  If not, see <http://www.gnu.org/licenses/>.
 
-
 #ifndef CONSTRAINT_FILE_H
 #define CONSTRAINT_FILE_H
 
@@ -25,11 +24,11 @@
 
 #include "SAT.H"
 
-//jkunlin, using vector instead of Array
 class ConstraintFile {
-	std::vector<InputClause>			clauses;
+  std::vector<InputClause> clauses;
+
 public:
-  ConstraintFile(const std::string&filename);
+  ConstraintFile(const std::string &filename);
   bool isEmpty() const { return clauses.size() == 0; }
   const std::vector<InputClause> &getClauses() const;
 };

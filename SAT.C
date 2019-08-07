@@ -15,24 +15,20 @@
 // You should have received a copy of the GNU General Public License
 // along with CASA.  If not, see <http://www.gnu.org/licenses/>.
 
-
 // Other SAT solvers can be substituted by altering SAT.H and SAT.C.
-
-//#include "sat/SAT.H"
-
 #include "SAT.H"
 
 InputClause::InputClause() : maxVariable(-1) {}
 
-//jkunlin
-InputClause::InputClause(const std::vector<InputTerm> &terms) : maxVariable(-1) {
-	unsigned size = terms.size();
-	for (unsigned i = 0; i < size; ++i) {
-		append(terms[i]);
-	}
+InputClause::InputClause(const std::vector<InputTerm> &terms)
+    : maxVariable(-1) {
+  unsigned size = terms.size();
+  for (unsigned i = 0; i < size; ++i) {
+    append(terms[i]);
+  }
 }
 
-//InputClause::InputClause(Array<InputTerm>terms) :
+// InputClause::InputClause(Array<InputTerm>terms) :
 //  maxVariable(-1) {
 //  unsigned size = terms.getSize();
 //  for (unsigned i = 0; i < size; ++i) {
@@ -40,15 +36,15 @@ InputClause::InputClause(const std::vector<InputTerm> &terms) : maxVariable(-1) 
 //  }
 //}
 
-//jkunlin
-InputClause::InputClause(const std::vector<unsigned> &symbols) : maxVariable(-1) {
-	unsigned size = symbols.size();
-	for (unsigned i = 0; i < size; ++i) {
-		append(InputTerm(false, symbols[i]));
-	}
+InputClause::InputClause(const std::vector<unsigned> &symbols)
+    : maxVariable(-1) {
+  unsigned size = symbols.size();
+  for (unsigned i = 0; i < size; ++i) {
+    append(InputTerm(false, symbols[i]));
+  }
 }
 
-//InputClause::InputClause(Array<unsigned>symbols) :
+// InputClause::InputClause(Array<unsigned>symbols) :
 //  maxVariable(-1) {
 //  unsigned size = symbols.getSize();
 //  for (unsigned i = 0; i < size; ++i) {
@@ -58,45 +54,39 @@ InputClause::InputClause(const std::vector<unsigned> &symbols) : maxVariable(-1)
 
 InputClause::~InputClause() {}
 
-InputClause::operator vec<Lit>&() {
-	return literals;
-}
-InputClause::operator const vec<Lit>&() const {
-	return literals;
-}
+InputClause::operator vec<Lit> &() { return literals; }
+InputClause::operator const vec<Lit> &() const { return literals; }
 
-void InputClause::clear(){
-	maxVariable = -1; //jkunlin
-	literals.clear();
+void InputClause::clear() {
+  maxVariable = -1;
+  literals.clear();
 }
 
 void InputClause::append(InputTerm term) {
-	int variable = term.getVariable();
-	if (variable > maxVariable) {
-		maxVariable = variable;
-	}
-	literals.push(term.isNegated() ? ~Lit(variable) : Lit(variable));
+  int variable = term.getVariable();
+  if (variable > maxVariable) {
+    maxVariable = variable;
+  }
+  literals.push(term.isNegated() ? ~Lit(variable) : Lit(variable));
 }
 
-void InputClause::undoAppend() {
-	literals.pop();
-}
+void InputClause::undoAppend() { literals.pop(); }
 
 void SATSolver::reserve(int variables) {
-	while (variables >= solver.nVars()) {
-		solver.newVar();
-	}
+  while (variables >= solver.nVars()) {
+    solver.newVar();
+  }
 }
 
-void SATSolver::addClause(InputClause&clause) {
-	reserve(clause.getMaxVariable());
-	solver.addClause(clause);
+void SATSolver::addClause(InputClause &clause) {
+  reserve(clause.getMaxVariable());
+  solver.addClause(clause);
 }
 
-bool SATSolver::operator()(const InputKnown&known) {
-	if (disable) {
-		return true;
-	}
-	reserve(known.getMaxVariable());
-	return solver.simplify() && solver.solve(known);
+bool SATSolver::operator()(const InputKnown &known) {
+  if (disable) {
+    return true;
+  }
+  reserve(known.getMaxVariable());
+  return solver.simplify() && solver.solve(known);
 }

@@ -5,7 +5,8 @@
 #objs = ${patsubst %.cc, %.o, $(src)}
 
 objs = Options.o SpecificationFile.o PascalTriangle.o Combinadic.o  ConstraintFile.o\
-	   LocalSearch.o Coverage.o CoveringArray.o TupleSet.o mersenne.o SAT.o Sovler.o main.o
+	   LocalSearch.o LineVarTupleSet.o Coverage.o CoveringArray.o TupleSet.o mersenne.o SAT.o Sovler.o main.o
+
 CC = g++
 CFLAGS = --std=c++0x -DNDEBUG -O2
 
@@ -21,6 +22,9 @@ Sovler.o : ./minisat/solver/Solver.C
 	$(CC) $(CFLAGS)  -I ./minisat/include -c -o $@ $^
 
 SAT.o : SAT.C
+	$(CC) $(CFLAGS) -c -o $@ $^
+
+LineVarTupleSet.o : LineVarTupleSet.cc
 	$(CC) $(CFLAGS) -c -o $@ $^
 
 ConstraintFile.o : ConstraintFile.C

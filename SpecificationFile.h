@@ -14,24 +14,23 @@
 
 // You should have received a copy of the GNU General Public License
 // along with CASA.  If not, see <http://www.gnu.org/licenses/>.
-
 #ifndef SPECIFICATIONFILE_H
 #define SPECIFICATIONFILE_H
 
-#include <string>
 #include <fstream>
+#include <string>
 
 #include "Options.h"
 
 class SpecificationFile {
 public:
-	SpecificationFile (const std::string &filename);
-	const Options & getOptions() const {return options;}
-	unsigned getStrenth() const {return strength;}
+  SpecificationFile(const std::string &filename);
+  const Options &getOptions() const { return options; }
+  unsigned getStrenth() const { return strength; }
+
 private:
-	Options options;
-	unsigned strength;
+  Options options;
+  unsigned strength;
 };
 
 #endif /* end of include guard: SPECIFICATIONFILE_H */
-
